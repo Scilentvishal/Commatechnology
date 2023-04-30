@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Main from '../components/Main'
-export default function Home() {
+import Home from '../components/home/Home'
+export default function Index() {
   return (
     <div>
       <Head>
@@ -17,7 +17,7 @@ export default function Home() {
             <meta property="og:site_name" content="Comma Technologies" />
           </Head>
 
-          <Main />
+          <Home />
 
         </div>
         )

@@ -43,3 +43,23 @@ export const projects = [
         ]
     },
 ]
+export const Serv = [
+    {
+        id: 1,
+        img: "static.svg",
+        name: 'Static website development',
+        description: 'This is perfect for businesses that dont require frequent updates or have a smaller budget.',
+    },
+    {
+        id: 2,
+        img: "dynamicweb.svg",
+        name: 'Dynamic website development',
+        description: 'Dynamic website development involves creating web pages with dynamic content that changes based on user interaction or other external factors.',
+    },
+    {
+        id: 3,
+        img: "nextjs.svg",
+        name: 'NextJs website development',
+        description: 'By using Next.js, developers can streamline the process of creating web applications and provide a faster, more responsive experience for users.',
+    },
+]
