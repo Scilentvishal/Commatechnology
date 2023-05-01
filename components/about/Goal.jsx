@@ -9,7 +9,7 @@ const Goal = (props) => {
           Our Mission <span className="text-red-500">& Vision</span>
         </h3>
         <div className="flex text-center md:flex-row flex-col justify-center">
-          <div className="md:w-1/2 w-full p-5">
+          <div className="md:w-1/2 w-full md:p-5 py-5">
             <Box
               class="bg-red-500 text-white"
               title="Vision"
@@ -17,7 +17,7 @@ const Goal = (props) => {
               icon={<AiFillEye className="inline" />}
             />
           </div>
-          <div className="md:w-1/2 w-full p-5">
+          <div className="md:w-1/2 w-full md:p-5 py-5">
             <Box
               class="bg-blue-500 text-white"
               title="Mission"
